@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #003B6F !important;
+    color: #d4ebfe;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    max-width: 650px;
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    background-color: rgba(128, 128, 192, 0.25);
+    margin: 1.25em;
+    padding: 1.25em;
+}
+
+h1 {
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-size: 3.5em !important;
+    /*font-size: 24px;*/
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    /*line-height: 26.4px;*/
+}
+
+h2 {
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-size: 2em !important;
+    padding-bottom: 0;
+    margin-bottom: 0.25em;
+    letter-spacing: 0.05em;
+    display: block;
+    border-bottom: dotted 1px;
+}
+
+code {
+    border-radius: 0px;
+    background-color: #003B6F !important;
+    color: whitesmoke;
+}
+
+ul.nav a {
+    text-decoration: none;
+    margin: 0 1em;
+    width: 50px;
+}
+
+ul.nav a:hover {
+    border-bottom: 1px dotted whitesmoke;
+}
+
+ul.nav li  {
+    display: inline;
+    height: 50%;
+}
+
+ul.nav li.disabled  {
+    text-decoration: line-through;
+    /*color: lightslategrey;*/
+    color: rgba(128, 128, 192, 0.35);;
+}
+
+.fa {
+    font-size: 2em;
+}
+
+a {
+    color: whitesmoke;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.right-aligned {
+    text-align: right;
+}
+
+p {
+    margin: 0.5em 0;
+}
+
+ul.decorated {
+    padding: 0;
+    margin: 0 2em;
+}
+
+ul.decorated li {
+    list-style-type: circle;
+    padding: 0.15em 0;
+}
+
+ul.decorated li a {
+    text-decoration: none;
+}
+
+li[title] p {
+    border-bottom: 0.1em dotted rgba(128, 128, 192, 0.75);
+    display: inline;
+}
+
+li[title]:active p, li[title]:hover p {
+    border-bottom: 1px dotted whitesmoke;
+}
+
+@media all and (min-width: 400px) {
+    section#welcome img {
+        float: left;
+    }
+}
+
+@media all and (max-width: 400px) {
+    section#welcome img {
+        margin: 0 auto 15px auto !important;
+        display: block !important;
+    }
+    section#welcome img, section#welcome h1 {
+        text-align: center;
+
+    }
+}
+
+section#welcome img {
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+    border-radius: 100%;
+    border: dotted whitesmoke 1px;
+}

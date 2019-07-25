@@ -1,0 +1,56 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+GPG Key Transition Statement
+============================
+
+As part of improving security standards I decided to create new PGP key according 
+to current best practices.
+
+Starting from the April 2016, you should expect GPG signatures from me to use the new
+keys. I intend to use the new master key only for key signing and a subkey for other
+signatures.
+
+At the time of writing this, I have not yet formally revoked or expired the 
+old key, but I may opt to do so in the future.
+
+The fingerprint for the new master key:
+pub   4096R/0x5E1A61916FB39F46 2016-04-01 [expires: 2018-04-01]
+      Key fingerprint = DF45 3223 2A82 A377 B49C  1DEE 5E1A 6191 6FB3 9F46
+uid                 [ultimate] Wojciech Kapcia <wojtek@tigase.org>
+uid                 [ultimate] Wojciech Kapcia <wojciech.kapcia@tigase.org>
+uid                 [ultimate] Wojciech Kapcia <wojtek@kapcia.info>
+uid                 [ultimate] Wojciech Kapcia <wojtek.kapcia@gmail.com>
+uid                 [ultimate] [jpeg image of size 4788]
+
+
+The fingerprint for the old master key:
+pub   2048R/0xE36E773377A5134E 2014-03-05 [expires: 2020-03-04]
+      Key fingerprint = EA7D FCE3 DAB4 8224 3B5F  99CC E36E 7733 77A5 134E
+uid                 [ultimate] Wojciech Kapcia <wojciech.kapcia@tigase.org>
+uid                 [ultimate] Wojciech Kapcia <wojtek@tigase.org>
+
+- - -- 
+Wojciech Kapcia
+-----BEGIN PGP SIGNATURE-----
+
+iQIcBAEBCgAGBQJXRUiIAAoJEE5BnHEM7NBefE8P+wTxzqQFA+R4b2neje7kzqwk
+fgo6Y5pYykgIYw6up4lbDtedBCr/SylixTNRPmSJwXySCJ01r5FfcTRrsXxvYAPP
+zjiGeSKf3FdBv+xRQNR63InUNKIKYhf36BZIz350QVMYGzDYtW1r6dy/EAsuCHyK
+qOZ54BkaDD8hqPq4khDKj5NEwdL6fkkRerkl8JLVa1sqxBwckWtH5RE+Lm1Cr59y
+c2wSdlFLpRjHU3PUN5h6jY9PodAaJmIrbR/23GE2EIXerupS1t1K8kXjMp9MiScv
+FGRRtiE1DAV/jXchGsNFEpNjn/EHvRNaNWATc4XiriCDCGAaAtxEAPzX46vJ1UXM
+10+mHTM1w/bIEknOrWususoL8S2BhRKebix3AQAGBD2MnwJIds+fLUeeqzHvoCcD
+oIqA2JyBHGAQKcn4zG2VZOSvtSsc26OKkLXwrGKFoPy2NHIwx6COlJg+uushzzO/
+jrbztvjsKrKSQ5un3BMWlTZASlG34t6IuXWkPrCamr9L/IiwhKnYjshhdUlJ70Mr
+vYlHEdnce7HJfCSltPaG+Vx152vJbjbbbuZxcjsZ7ayXkPY+5NbgV0ULiLnDPLpr
+uSfqa2Tsva7ooU23gdOnVFUGxL/lsNbVR0yesOpsUXq07+gULB8JMZsYWHliMahM
+88RmDejMTYsPF5qzmq3MiQEcBAEBCgAGBQJXRUiIAAoJEDNQ/XbUDFd7fE8IAJdg
+ntJauGboCZEVeh7JbrDZ6wFN2aHdugLB+N/42FuVD4XydnQKmrA85T9GQk+6mMMG
+cWujhPNgdWZTBPaq0uiztrfEiqq4hGGc1Co3IlhuXP04PYGsg1yUhaH1n0apOraA
+jvZz/UIvh4JmG2TmKD9xhZ4vm6qVVPbxznViwTbB9ZbJr/klZ0SRTO35CbAh3i9d
+mLE9oOecmISoMolMRJ/mdEKo9xU8yYqnHyB26SJXmJ0UN7tE36TeswoJLyDlFoWE
+oF+wrQ9/+vvLqks8nWwyXsWSzshvLPbqJdqGJVxHhEjEKNGyyMV/TYA3/dErIuxk
+SQdow7fa+C8y80pPEwo=
+=f9/y
+-----END PGP SIGNATURE-----
