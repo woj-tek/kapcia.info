@@ -1,0 +1,61 @@
+baseURL = 'https://kapcia.info/'
+local = "en"
+#title = "Wojciech Kapcia"
+#theme = 'ananke'
+theme = "hugo-coder"
+
+
+paginate = 20
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Wojciech Kapcia"
+  description = "Passionate software developer"
+  info = "Passionate software developer"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/profile.jpg"
+
+  favicon_32 = "images/profile.jpg"
+
+  since = 2024
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/woj-tek/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 3
+  url = "https://www.linkedin.com/in/wojciechkapcia/"
+
+# Menu links
+# [[menu.main]]
+# name = "About"
+# weight = 1
+# url = "about/"
+# 
+# [[menu.main]]
+#   name = "Blog"
+#   weight = 2
+#   url  = "posts/"
+# 

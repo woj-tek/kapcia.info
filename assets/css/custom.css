@@ -1,0 +1,9 @@
+body, h2, h1, h3, a {
+    background-color: #003B6F !important;
+    color: #d4ebfe !important;  
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+footer {
+    opacity: 20%;;
+}
